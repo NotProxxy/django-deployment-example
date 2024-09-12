@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-g%ppj8k2fl-alda4y@&5xurx#z7sn!a@szl*evy3$8df9wsc+(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://claudiu.pythonanywhere.com/']
+ALLOWED_HOSTS = [    'claudiu.pythonanywhere.com',  # Your PythonAnywhere domain
+                    'www.claudiu.pythonanywhere.com'  # Optionally, with www subdomain
+    ]
 
 
 # Application definition
